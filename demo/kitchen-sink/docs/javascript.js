@@ -1,5 +1,5 @@
-function foo(items) {
-    for (var i=0; i<items.length; i++) {
-        alert(items[i] + "juhu");
-    }	// Real Tab.
+var myVar = 10;
+console.log(myVar, myVar);
+for (var i = 0; i < array.length; i++) {
+    var elem = array[i];
 }

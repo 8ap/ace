@@ -56,6 +56,21 @@ var vim = require("ace/keyboard/keybinding/vim").Vim;
 var emacs = require("ace/keyboard/keybinding/emacs").Emacs;
 var HashHandler = require("ace/keyboard/hash_handler").HashHandler;
 
+//////
+
+
+setTimeout(function() {
+    var PlaceHolder = require("ace/placeholder").PlaceHolder;
+    var session = ace.getSession();
+    var p = new PlaceHolder(session, 5, {row: 0, column: 4}, [{row: 1, column: 12}, {row: 1, column: 19}]);
+    var p2 = new PlaceHolder(session, 1, {row: 2, column: 9}, [{row: 2, column: 16}, {row: 2, column: 34}, {row: 3, column: 21}]);
+    
+}, 1000);
+
+
+//////
+
+
 
 var modesByName;
 

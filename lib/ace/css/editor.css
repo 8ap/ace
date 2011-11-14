@@ -173,3 +173,20 @@
 .ace_dragging .ace_content {
   cursor: move;
 }
+
+
+.ace_placeholder_main {
+    padding: 0 2px 0 2px;
+    margin: 0 -2px 0 -2px;
+    position: absolute;
+    border: solid 1px green;
+}
+
+.ace_placeholder {
+    padding: 0 2px 0 2px;
+    margin: 0 -2px 0 -2px;
+    position: absolute;
+    border-bottom: dotted 1px gray;
+}
+
+
